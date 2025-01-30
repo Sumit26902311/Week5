@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Page Layout</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+        background: #333;
+        color: white;
+        padding: 10px;
+      }
+      nav ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+      }
+      nav ul li {
+        margin: 0 10px;
+      }
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+      }
+      .auth-links a {
+        color: white;
+        text-decoration: none;
+      }
+      .content {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+      }
+      .content img {
+        max-width: 20%;
+        height: auto;
+      }
+      .text-box {
+        padding: 20px;
+        background: white;
+      }
+      footer {
+        text-align: center;
+        background: #333;
+        color: white;
+        padding: 10px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+        </ul>
+        <div class="auth-links">
+          <a href="#">Login</a> | <a href="#">Sign Up</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="content">
+        <img src="Images/images.jpeg" />
+        <img src="Images/images-2.jpeg" />
+        <img src="Images/Header_SF_PIA22743-2_nasa.jpg" />
+        <div class="text-box">
+          <p>
+            Cascading Style Sheets (CSS) is a cornerstone technology used to
+            style and layout web pages. It allows web designers and developers
+            to control the appearance of their websites, including colors,
+            fonts, spacing, and positioning of elements. CSS works alongside
+            HTML and JavaScript to create visually engaging and interactive web
+            experiences. By separating the content structure (HTML) from the
+            presentation (CSS), it makes it easier to maintain and update
+            websites. One of the key features of CSS is its ability to apply
+            styles to multiple pages of a website from a single stylesheet,
+            ensuring consistency across the entire site.
+          </p>
+          <p>
+            CSS follows a hierarchical structure where styles are applied based
+            on specificity and inheritance. This means that more specific rules
+            override more general ones, and child elements can inherit styles
+            from their parent elements. This hierarchical nature allows for
+            efficient and flexible styling. CSS also supports responsive design
+            through media queries, which enable web pages to adapt to different
+            screen sizes and devices. With CSS, web developers can create
+            complex layouts, animations, and transitions, enhancing the overall
+            user experience.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
