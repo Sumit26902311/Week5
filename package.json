@@ -1,0 +1,14 @@
+{
+  "name": "Week5",
+  "version": "1.0.0",
+  "description": "Bootstrap and SASS setup",
+  "main": "index.js",
+  "scripts": {
+    "sass-build": "sass --no-source-map scss:css"
+  },
+  "author": "Ben Kam",
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.85.1"
+  }
+}
